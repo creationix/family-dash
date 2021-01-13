@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-icon" content="/apple-touch-icon.png">
+    <meta name="mobile-web-app-status-bar-style" content="black">
+
+    <link rel="manifest" href="manifest.json">
+
+    <title>Caswell House Dashboard</title>
+
+    <script type="module" src="app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js').then(function () {
+                console.log('Service Worker Registered')
+            })
+        }
+    </script>
+</head>
+
+</html>
