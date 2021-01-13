@@ -9,10 +9,22 @@ Object.assign(document.body.style, {
 })
 
 const backgrounds = [
-    // 'Dramatic-sunset-wallpaper-images.jpg',
-    // 'dark-turtle-zebra.jpg',
-    'Summer-Flowers-Wallpaper-HD-Windows.jpg',
-    // 'jsykw3.jpg'
+    '131084.jpg.webp',
+    '131138.jpg.webp',
+    '162119.jpg.webp',
+    '162122.jpg.webp',
+    '162123.jpg.webp',
+    '162125.jpg.webp',
+    '162126.jpg.webp',
+    '162127.jpg.webp',
+    '162128.jpg.webp',
+    '162129.jpg.webp',
+    '162130.jpg.webp',
+    '162131.jpg.webp',
+    '162132.jpg.webp',
+    '162133.jpg.webp',
+    '162134.jpg.webp',
+    '162140.jpg.webp',
 ]
 
 const images = {}
