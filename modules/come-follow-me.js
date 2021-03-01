@@ -6,8 +6,6 @@ import { link } from "./weblink.js"
 export default () => {
     // Update once at page load.
     requestAnimationFrame(update)
-    // Update after 8pm with tomorrow's scripture
-    at([21], update)
     // Update after midnight to change "tomorrow" to "today"
     at([], update)
 
@@ -30,22 +28,20 @@ export default () => {
             fontWeight: 'bold',
             color: '#aaf'
         } }, 'Come Follow Me'],
-    ['$date', { css: { color: '#', fontSize: '40px' } }],
-    ['$scripture']
+    ['$today', { css: { fontSize: '40px' } }],
+    ['$tomorrow', { css: { fontSize: '30px' } }],
     ], scope)
 
     function update() {
-        const soon = new Date(Date.now() + 1000 * 60 * 60 * 3)
-        const now = new Date()
-        const y = soon.getFullYear()
-        const m = soon.getMonth() + 1
-        const d = soon.getDate()
-        scope.date.textContent = now.getDate() === soon.getDate() ? 'Today' : 'Tomorrow'
-        const scripture = db[y][m][d]
-        const href = link(scripture)
+        const today = new Date()
+        let y = today.getFullYear()
+        let m = today.getMonth() + 1
+        let d = today.getDate()
+        let scripture = db[y][m][d]
+        let href = link(scripture)
         if (href) {
-            scope.scripture.textContent = ""
-            scope.scripture.appendChild(domBuilder(['a', {
+            scope.today.textContent = ""
+            scope.today.appendChild(domBuilder(['a', {
                 href,
                 target:"_blank",
                 css:{
@@ -53,7 +49,25 @@ export default () => {
                 }
             }, scripture]))
         } else {
-            scope.scripture.textContent = scripture
+            scope.today.textContent = scripture
+        }
+        const tomorrow = new Date(Date.now() + 1000 * 60 * 60 * 24)
+        y = tomorrow.getFullYear()
+        m = tomorrow.getMonth() + 1
+        d = tomorrow.getDate()
+        scripture = db[y][m][d]
+        href = link(scripture)
+        if (href) {
+            scope.tomorrow.textContent = ""
+            scope.tomorrow.appendChild(domBuilder(['span', 'Tomorrow ', ['a', {
+                href,
+                target:"_blank",
+                css:{
+                    color:"#fff"
+                }
+            }, scripture]]))
+        } else {
+            scope.tomorrow.textContent = 'Tomorrow  ' + scripture
         }
     }
 }
