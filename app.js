@@ -1,4 +1,4 @@
-import './modules/autoreload.js'
+// import './modules/autoreload.js'
 import './modules/backgrounds.js'
 
 import centered from './modules/centered.js'
