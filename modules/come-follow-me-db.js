@@ -535,7 +535,7 @@ export default {
             2: 'D&C 138:21-30',
             3: 'D&C 138:31-40',
             4: 'D&C 138:41-50',
-            5: 'D&C 110:51-60',
+            5: 'D&C 138:51-60',
             6: 'Official Dec. 1(1/2)',
             7: 'Official Dec. 1(2/2)',
             8: 'Official Dec 2',
