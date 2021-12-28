@@ -557,6 +557,17 @@ export default {
             24: 'Living Christ (4 Paragraphs)',
             25: 'Living Christ (2 Paragraphs)',
             26: 'Living Christ (1 Paragraph)',
+            27: 'Moses 1',
+            28: 'Moses 1:1-11',
+            29: 'Moses 1:12-22',
+            30: 'Moses 1:23-42',
+            31: 'Abraham 3',
         },
+    },
+    2021: {
+        1: {
+            1: 'Abraham 3:1-13',
+            2: 'Abraham 3:14-28',
+        }
     }
 }

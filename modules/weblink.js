@@ -15,6 +15,8 @@ export const abbreviations = {
     "Ether": "bofm/ether",
     "Moroni": "bofm/moro",
     "Joseph Smith History": "pgp/js-h",
+    "Moses": "pgp/moses",
+    "Abraham": "pgp/abr",
     "D&C": "dc-testament/dc",
 }
 
