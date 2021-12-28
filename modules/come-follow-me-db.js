@@ -564,7 +564,7 @@ export default {
             31: 'Abraham 3',
         },
     },
-    2021: {
+    2022: {
         1: {
             1: 'Abraham 3:1-13',
             2: 'Abraham 3:14-28',
