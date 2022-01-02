@@ -568,6 +568,13 @@ export default {
         1: {
             1: 'Abraham 3:1-13',
             2: 'Abraham 3:14-28',
+            3: 'Genesis 1',
+            4: 'Genesis 2',
+            5: 'Moses 2',
+            6: 'Moses 3',
+            7: 'Abraham 4',
+            8: 'Abraham 5',
+            9: '',
         }
     }
 }

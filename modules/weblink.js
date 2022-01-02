@@ -18,6 +18,7 @@ export const abbreviations = {
     "Moses": "pgp/moses",
     "Abraham": "pgp/abr",
     "D&C": "dc-testament/dc",
+    "Genesis": "ot/gen",
 }
 
 export function link (text) {
