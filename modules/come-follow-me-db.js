@@ -574,7 +574,14 @@ export default {
             6: 'Moses 3',
             7: 'Abraham 4',
             8: 'Abraham 5',
-            9: '',
+            9: 'FHE',
+            10: 'Genesis 3',
+            11: 'Moses 4:1-14',
+            12: 'Moses 4:15-32',
+            13: 'Genesis 4',
+            14: 'Moses 5:1-16',
+            15: 'Moses 5:17-32',
+            16: 'FHE'
         }
     }
 }
