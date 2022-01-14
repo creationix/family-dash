@@ -581,7 +581,15 @@ export default {
             13: 'Genesis 4',
             14: 'Moses 5:1-16',
             15: 'Moses 5:17-32',
-            16: 'FHE'
+            16: 'FHE',
+
+            17: 'Genesis 5:1-14',
+            18: 'Moses 6:1-9',
+            19: 'Moses 6:10-19',
+            20: 'Genesis 5:16-32',
+            21: 'Moses 6:20-34',
+            22: 'Moses 6:35-68',
+            23: 'FHE',
         }
     }
 }
