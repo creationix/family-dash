@@ -598,6 +598,16 @@ export default {
             28: 'Moses 7:46-57',
             29: 'Moses 7:58-69',
             30: 'FHE',
+
+            31: 'Moses 8',
+        },
+        2: {
+            1: 'Genesis 6',
+            2: 'Genesis 7',
+            3: 'Genesis 8',
+            4: 'Genesis 9',
+            5: 'Genesis 10',
+            6: 'Genesis 11',
         }
     }
 }

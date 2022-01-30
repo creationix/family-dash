@@ -1,0 +1,12 @@
+<rss version="2.0">
+  <channel>
+    <title>Family Dashboard</title>
+    <link>https://family-dash.vercel.app</link>
+    <description>Handy place to put family stuff</description>
+    <item>
+      <title>Moses 1:12-22</title>
+      <link>https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/1.p12-22#p12</link>
+      <pubDate>Tue, 20 Dec 2021 00:00:01 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
