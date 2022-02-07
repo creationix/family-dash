@@ -608,6 +608,14 @@ export default {
             4: 'Genesis 9',
             5: 'Genesis 10',
             6: 'Genesis 11',
+
+            7: 'Abraham 1',
+            8: 'Abraham 2',
+            9: 'Genesis 12-13',
+            10: 'Genesis 14',
+            11: 'Genesis 15-16',
+            12: 'Genesis 17',
+            13: 'FHE',
         }
     }
 }
