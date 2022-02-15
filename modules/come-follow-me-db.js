@@ -616,6 +616,14 @@ export default {
             11: 'Genesis 15-16',
             12: 'Genesis 17',
             13: 'FHE',
+
+            14: "Genesis 18",
+            15: "Genesis 19",
+            16: "Genesis 20",
+            17: "Genesis 21",
+            18: "Genesis 22",
+            19: "Genesis 23",
+            20: "FHE",
         }
     }
 }
