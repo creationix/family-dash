@@ -4,7 +4,7 @@ Object.assign(document.body.style, {
     backgroundAttachment: 'fixed',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
-    // backgroundSize: "cover",
+    backgroundSize: "cover",
     transition: 'background-image 30s ease-in-out'
 })
 
