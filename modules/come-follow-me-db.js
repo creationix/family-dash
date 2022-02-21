@@ -624,6 +624,14 @@ export default {
             18: "Genesis 22",
             19: "Genesis 23",
             20: "FHE",
+
+            21: "Genesis 24:1-31",
+            22: "Genesis 24:32-67",
+            23: "Genesis 25",
+            24: "Genesis 26",
+            25: "Genesis 27:1-29",
+            26: "Genesis 27:30-46",
+            27: "FHE",
         }
     }
 }
