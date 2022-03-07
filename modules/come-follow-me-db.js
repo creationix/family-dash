@@ -640,8 +640,16 @@ export default {
             2: 'Genesis 30',
             3: 'Genesis 31',
             4: 'Genesis 32',
-            5: 'Genesis 23',
+            5: 'Genesis 33',
             6: 'FHE',
+
+            7: 'Genesis 37',
+            8: 'Genesis 38',
+            9: 'Genesis 39',
+            10: 'Genesis 40',
+            11: 'Genesis 41:1-36',
+            12: 'Genesis 41:37-57',
+            12: 'FHE',
         },
     }
 }
