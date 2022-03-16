@@ -649,15 +649,15 @@ export default {
             10: 'Genesis 40',
             11: 'Genesis 41:1-36',
             12: 'Genesis 41:37-57',
-            12: 'FHE',
+            13: 'FHE',
 
-            13: 'Genesis 42',
-            14: 'Genesis 43',
-            15: 'Genesis 44-45',
-            16: 'Genesis 46',
-            17: 'Genesis 47-48',
-            18: 'Genesis 49-50',
-            19: 'FHE',
+            14: 'Genesis 42',
+            15: 'Genesis 43',
+            16: 'Genesis 44-45',
+            17: 'Genesis 46',
+            18: 'Genesis 47-48',
+            19: 'Genesis 49-50',
+            20: 'FHE',
         },
     }
 }
