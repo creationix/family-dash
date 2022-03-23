@@ -19,16 +19,17 @@ export const abbreviations = {
     "Abraham": "pgp/abr",
     "D&C": "dc-testament/dc",
     "Genesis": "ot/gen",
+    "Exodus": "ot/ex",
 }
 
-export function link (text) {
+export function link(text) {
     for (const name in abbreviations) {
         if (text.match(name)) {
-            const link = abbreviations[name]        
+            const link = abbreviations[name]
             const match = text.match(/([0-9]+)(?::([0-9]+))?(?:-([0-9]+))?$/)
             if (!match) return
-            const [,chapter,start,end] = match
-            return `https://www.churchofjesuschrist.org/study/scriptures/${link}/${chapter}${start?`.p${start}`:""}${end?`-${end}`:""}${start?`#p${start}`:""}`
+            const [, chapter, start, end] = match
+            return `https://www.churchofjesuschrist.org/study/scriptures/${link}/${chapter}${start ? `.p${start}` : ""}${end ? `-${end}` : ""}${start ? `#p${start}` : ""}`
         }
     }
 }

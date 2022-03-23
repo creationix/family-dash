@@ -658,6 +658,14 @@ export default {
             18: 'Genesis 47-48',
             19: 'Genesis 49-50',
             20: 'FHE',
+
+            21: 'Exodus 1',
+            22: 'Exodus 2',
+            23: 'Exodus 3',
+            24: 'Exodus 4',
+            25: 'Exodus 5',
+            26: 'Exodus 6',
+            27: 'FHE',
         },
     }
 }
