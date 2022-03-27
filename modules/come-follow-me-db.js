@@ -666,6 +666,16 @@ export default {
             25: 'Exodus 5',
             26: 'Exodus 6',
             27: 'FHE',
+
+            30: 'Exodus 7',
+            31: 'Exodus 8',
         },
+        4: {
+            1: 'Exodus 9',
+            2: 'Exodus 10',
+            3: 'Exodus 11',
+            4: 'Exodus 12',
+            5: 'Exodus 13',
+        }
     }
 }
