@@ -670,12 +670,12 @@ export default {
             28: 'Exodus 7',
             29: 'Exodus 8',
             30: 'Exodus 9',
-            31: 'Exodus 10',
+            31: 'Exodus 10-11',
         },
         4: {
-            1: 'Exodus 11',
-            2: 'Exodus 12',
-            3: 'Exodus 13',
+            1: 'Exodus 12',
+            2: 'Exodus 13',
+            3: 'FHE',
         }
     }
 }
