@@ -676,6 +676,14 @@ export default {
             1: 'Exodus 12',
             2: 'Exodus 13',
             3: 'FHE',
+
+            4: 'Exodus 14:1-14',
+            5: 'Exodus 14:15-31',
+            6: 'Exodus 15',
+            7: 'Exodus 16:1-21',
+            8: 'Exodus 16:22-36',
+            9: 'Exodus 17',
+            10: 'FHE',
         }
     }
 }
