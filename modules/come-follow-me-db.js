@@ -684,6 +684,17 @@ export default {
             8: 'Exodus 16:22-36',
             9: 'Exodus 17',
             10: 'FHE',
+
+            11: [
+                'Easter Come Follow Me',
+                'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-old-testament-2022/16?lang=eng'
+            ],
+            12: 11,
+            13: 11,
+            14: 11,
+            15: 11,
+            16: 11,
+            17: 11,
         }
     }
 }

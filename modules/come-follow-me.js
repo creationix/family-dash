@@ -38,19 +38,35 @@ export default () => {
         let m = today.getMonth() + 1
         let d = today.getDate()
         let scripture = db[y][m][d]
-        let href = link(scripture)
-        if (href) {
+        // Support redirects
+        if (typeof scripture === 'number') {
+            scripture = db[y][m][scripture]
+        }
+        // Support arbitrary hyperlinks
+        if (Array.isArray(scripture)) {
+            // An array is a manual hyperlink.
+            const [label, href] = scripture
             scope.today.textContent = ""
             scope.today.appendChild(domBuilder(['a', {
                 href,
-                target:"_blank",
                 css:{
                     color:"#fff"
                 }
-            }, scripture]))
+            }, label]))
         } else {
-            scope.today.textContent = scripture
-        }
+            let href = link(scripture)
+            if (href) {
+                scope.today.textContent = ""
+                scope.today.appendChild(domBuilder(['a', {
+                    href,
+                    css:{
+                        color:"#fff"
+                    }
+                }, scripture]))
+            } else {
+                scope.today.textContent = scripture
+            }
+            }
         const tomorrow = new Date(Date.now() + 1000 * 60 * 60 * 24)
         y = tomorrow.getFullYear()
         m = tomorrow.getMonth() + 1
