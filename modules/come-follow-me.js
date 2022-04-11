@@ -10,7 +10,7 @@ export default () => {
     at([], update)
 
     const scope = {}
-    
+
     return domBuilder(['div', {
         css: {
             fontFamily: 'sans-serif',
@@ -22,14 +22,16 @@ export default () => {
             // boxShadow: '0 0 20px #000, inset 0 0 20px #fff',
             textShadow: '0 0 10px #000',
             backgroundColor: 'rgba(0,10,80,.8)'
-        } },
-    ['div', {
-        css: {
-            fontWeight: 'bold',
-            color: '#aaf'
-        } }, 'Come Follow Me'],
-    ['$today', { css: { fontSize: '40px' } }],
-    ['$tomorrow', { css: { fontSize: '30px' } }],
+        }
+    },
+        ['div', {
+            css: {
+                fontWeight: 'bold',
+                color: '#aaf'
+            }
+        }, 'Come Follow Me'],
+        ['$today', { css: { fontSize: '40px' } }],
+        ['$tomorrow', { css: { fontSize: '30px' } }],
     ], scope)
 
     function update() {
@@ -42,6 +44,7 @@ export default () => {
         if (typeof scripture === 'number') {
             scripture = db[y][m][scripture]
         }
+        const todayScripture = scripture
         // Support arbitrary hyperlinks
         if (Array.isArray(scripture)) {
             // An array is a manual hyperlink.
@@ -49,8 +52,8 @@ export default () => {
             scope.today.textContent = ""
             scope.today.appendChild(domBuilder(['a', {
                 href,
-                css:{
-                    color:"#fff"
+                css: {
+                    color: "#fff"
                 }
             }, label]))
         } else {
@@ -59,31 +62,52 @@ export default () => {
                 scope.today.textContent = ""
                 scope.today.appendChild(domBuilder(['a', {
                     href,
-                    css:{
-                        color:"#fff"
+                    css: {
+                        color: "#fff"
                     }
                 }, scripture]))
             } else {
                 scope.today.textContent = scripture
             }
-            }
+        }
         const tomorrow = new Date(Date.now() + 1000 * 60 * 60 * 24)
         y = tomorrow.getFullYear()
         m = tomorrow.getMonth() + 1
         d = tomorrow.getDate()
         scripture = db[y][m][d]
-        href = link(scripture)
-        if (href) {
+        // Support redirects
+        if (typeof scripture === 'number') {
+            scripture = db[y][m][scripture]
+        }
+        if (scripture === todayScripture) {
             scope.tomorrow.textContent = ""
-            scope.tomorrow.appendChild(domBuilder(['span', 'Tomorrow ', ['a', {
-                href,
-                target:"_blank",
-                css:{
-                    color:"#fff"
-                }
-            }, scripture]]))
         } else {
-            scope.tomorrow.textContent = 'Tomorrow  ' + scripture
+            // Support arbitrary hyperlinks
+            if (Array.isArray(scripture)) {
+                // An array is a manual hyperlink.
+                const [label, href] = scripture
+                scope.tomorrow.textContent = ""
+                scope.tomorrow.appendChild(domBuilder(['a', {
+                    href,
+                    css: {
+                        color: "#fff"
+                    }
+                }, label]))
+            } else {
+                href = link(scripture)
+                if (href) {
+                    scope.tomorrow.textContent = ""
+                    scope.tomorrow.appendChild(domBuilder(['span', 'Tomorrow ', ['a', {
+                        href,
+                        target: "_blank",
+                        css: {
+                            color: "#fff"
+                        }
+                    }, scripture]]))
+                } else {
+                    scope.tomorrow.textContent = 'Tomorrow  ' + scripture
+                }
+            }
         }
     }
 }
