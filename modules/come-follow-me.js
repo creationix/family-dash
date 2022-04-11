@@ -92,7 +92,7 @@ export default () => {
                     css: {
                         color: "#fff"
                     }
-                }, label]))
+                }, 'Tomorrow  ' + label]))
             } else {
                 href = link(scripture)
                 if (href) {
