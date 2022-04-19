@@ -4,7 +4,7 @@
  * - Year: Date.getFullYear()
  * - Month: Date.getMonth() + 1
  * - Day: Date.getDate()
- * @type {[[[string]]]} year.month.day.reading
+ * @type {[[[string|number|[string,string]]]]} year.month.day.reading
  */
 export default {
     2020: {
@@ -694,7 +694,15 @@ export default {
             14: 11,
             15: 11,
             16: 11,
-            17: 11,
+            17: 'FHE',
+
+            18: 'Exodus 18:1-12',
+            19: 'Exodus 18:13-27',
+            20: 'Exodus 19:1-13',
+            21: 'Exodus 19:14-25',
+            22: 'Exodus 20:1-17',
+            23: 'Exodus 20:18-26',
+            24: 'FHE',
         }
     }
 }
