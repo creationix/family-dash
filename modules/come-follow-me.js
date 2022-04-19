@@ -94,7 +94,7 @@ export default () => {
                     }
                 }, 'Tomorrow  ' + label]))
             } else {
-                href = link(scripture)
+                const href = link(scripture)
                 if (href) {
                     scope.tomorrow.textContent = ""
                     scope.tomorrow.appendChild(domBuilder(['span', 'Tomorrow ', ['a', {
