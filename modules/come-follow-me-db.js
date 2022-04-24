@@ -703,6 +703,16 @@ export default {
             22: 'Exodus 20:1-17',
             23: 'Exodus 20:18-26',
             24: 'FHE',
+
+            25: 'Exodus 21-22, 24 (headings)',
+            26: 'Exodus 25-30 (headings)',
+            27: 'Exodus 31',
+            28: 'Exodus 32',
+            29: 'Exodus 33',
+            30: 'Exodus 34',
+        },
+        5: {
+            1: 'FHE',
         }
     }
 }
