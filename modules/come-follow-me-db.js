@@ -706,7 +706,7 @@ export default {
 
             25: 'Exodus 21-22, 24 (headings)',
             26: 'Exodus 25-30 (headings)',
-            27: 'Exodus 31',
+            27: 'Exodus 31 *',
             28: 'Exodus 32',
             29: 'Exodus 33',
             30: 'Exodus 34',
