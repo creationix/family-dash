@@ -713,6 +713,14 @@ export default {
         },
         5: {
             1: 'FHE',
+            
+            2: 'Exodus 35-36',
+            3: 'Exodus 37-38',
+            4: 'Exodus 39-40',
+            5: 'Leviticus 1; headings to Lev 2-15',
+            6: 'Leviticus 16; headings to Lev 17-18',
+            7: 'Leviticus 19',
+            8: 'FHE',
         }
     }
 }
