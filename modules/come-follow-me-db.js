@@ -4,7 +4,7 @@
  * - Year: Date.getFullYear()
  * - Month: Date.getMonth() + 1
  * - Day: Date.getDate()
- * @type {[[[string|number|[string,string]]]]} year.month.day.reading
+//  * @type {[[[string]]]} year.month.day.reading
  */
 export default {
     2020: {
@@ -685,16 +685,16 @@ export default {
             9: 'Exodus 17',
             10: 'FHE',
 
-            11: [
-                'Easter Come Follow Me',
-                'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-old-testament-2022/16?lang=eng'
-            ],
-            12: 11,
-            13: 11,
-            14: 11,
-            15: 11,
-            16: 11,
-            17: 'FHE',
+            // 11: [
+            //     'Easter Come Follow Me',
+            //     'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-old-testament-2022/16?lang=eng'
+            // ],
+            // 12: 11,
+            // 13: 11,
+            // 14: 11,
+            // 15: 11,
+            // 16: 11,
+            // 17: 'FHE',
 
             18: 'Exodus 18:1-12',
             19: 'Exodus 18:13-27',
@@ -713,7 +713,7 @@ export default {
         },
         5: {
             1: 'FHE',
-            
+
             2: 'Exodus 35-36',
             3: 'Exodus 37-38',
             4: 'Exodus 39-40',
@@ -721,6 +721,15 @@ export default {
             6: 'Leviticus 16; headings to Lev 17-18',
             7: 'Leviticus 19',
             8: 'FHE',
+
+            9: "headings to Lev 20-27; headings to Numbers 1-10; read Numbers 11",
+            10: "Numbers 12-13",
+            11: "Numbers 14; headings to Numbers 15-19",
+            12: "Numbers 20-21",
+            13: "Numbers 22-23",
+            14: "Numbers 24",
+            15: "FHE",
+
         }
     }
 }
