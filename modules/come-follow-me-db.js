@@ -730,6 +730,13 @@ export default {
             14: "Numbers 24",
             15: "FHE",
 
+            16: "headings to Numbers 25-36; headings to Deuteronomy 1-5; read Deuteronomy 6",
+            17: "Deuteronomy 7-8",
+            18: "headings to Deuteronomy 9-14; read Deuteronomy 15; headings to Deuteronomy 16-17",
+            19: "Deuteronomy 18; headings to Deuteronomy 19-28",
+            20: "Deuteronomy 29-30",
+            21: "headings to Deuteronomy 31-33; read Deuteronomy 34",
+            22: "FHE",
         }
     }
 }
