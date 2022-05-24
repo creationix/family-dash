@@ -742,7 +742,7 @@ export default {
             24: 'Joshua 3-4',
             25: 'Joshua 5-6',
             26: 'Joshua 7-8',
-            27: 'headings to Joshua 9-22',
+            27: 'Headings to Joshua 9-22',
             28: 'Joshua 23-24',
             29: 'FHE',
 
