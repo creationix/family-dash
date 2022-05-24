@@ -20,13 +20,14 @@ export const abbreviations = {
     "D&C": "dc-testament/dc",
     "Genesis": "ot/gen",
     "Exodus": "ot/ex",
+    "Joshua": "ot/josh",
 }
 
 export function link(text) {
     for (const name in abbreviations) {
         if (text.match(name)) {
             const link = abbreviations[name]
-            const match = text.match(/([0-9]+)(?::([0-9]+))?(?:-([0-9]+))?$/)
+            const match = text.match(/([0-9]+)(?::([0-9]+))?(?:-([0-9]+))?/)
             if (!match) return
             const [, chapter, start, end] = match
             return `https://www.churchofjesuschrist.org/study/scriptures/${link}/${chapter}${start ? `.p${start}` : ""}${end ? `-${end}` : ""}${start ? `#p${start}` : ""}`
