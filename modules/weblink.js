@@ -20,6 +20,9 @@ export const abbreviations = {
     "D&C": "dc-testament/dc",
     "Genesis": "ot/gen",
     "Exodus": "ot/ex",
+    "Leviticus": "ot/lev",
+    "Numbers": "ot/num",
+    "Deuteronomy": "ot/deut",
     "Joshua": "ot/josh",
 }
 
