@@ -737,6 +737,15 @@ export default {
             20: "Deuteronomy 29-30",
             21: "headings to Deuteronomy 31-33; read Deuteronomy 34",
             22: "FHE",
+
+            23: 'Joshua 1-2',
+            24: 'Joshua 3-4',
+            25: 'Joshua 5-6',
+            26: 'Joshua 7-8',
+            27: 'headings to Joshua 9-22',
+            28: 'Joshua 23-24',
+            29: 'FHE',
+
         }
     }
 }
