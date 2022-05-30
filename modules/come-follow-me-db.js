@@ -746,6 +746,15 @@ export default {
             28: 'Joshua 23-24',
             29: 'FHE',
 
+            30: "Judges 1 (Heading) & Chapters 2-4",
+            31: "Judges 5 (Heading) & Chapters 6-8",
+        },
+        6: {
+            1: "Judges 9-12 (Headings)",
+            2: "Judges 13-14",
+            3: "Judges 15-16",
+            4: "Judges 17-21 (Headings)",
+            5: "FHE",
         }
     }
 }
