@@ -24,6 +24,7 @@ export const abbreviations = {
     "Numbers": "ot/num",
     "Deuteronomy": "ot/deut",
     "Joshua": "ot/josh",
+    "Judges": "ot/judg",
 }
 
 export function link(text) {
