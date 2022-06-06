@@ -761,7 +761,7 @@ export default {
             8: "Ruth 4",
             9: "1 Samuel 1",
             10: "1 Samuel 2",
-            11: "1 Samuel 2",
+            11: "1 Samuel 3",
             12: "FHE",
         }
     }
