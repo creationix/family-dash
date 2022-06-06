@@ -755,6 +755,14 @@ export default {
             3: "Judges 15-16",
             4: "Judges 17-21 (Headings)",
             5: "FHE",
+
+            6: "Ruth 1",
+            7: "Ruth 2-3",
+            8: "Ruth 4",
+            9: "1 Samuel 1",
+            10: "1 Samuel 2",
+            11: "1 Samuel 2",
+            12: "FHE",
         }
     }
 }
