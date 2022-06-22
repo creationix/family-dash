@@ -27,6 +27,7 @@ export const abbreviations = {
     "Judges": "ot/judg",
     "Ruth": "ot/ruth",
     "1 Samuel": "ot/1-sam",
+    "2 Samuel": "ot/2-sam",
 }
 
 export function link(text) {

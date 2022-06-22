@@ -772,6 +772,14 @@ export default {
             18: "1 Samuel 18",
             19: "FHE",
 
+            20: "Headings to 1 Samuel 19-31 and 2 Samuel 1-4",
+            21: "2 Samuel 5-6",
+            22: "2 Samuel 7; headings to 2 Samuel 8-10; 2 Samuel 11",
+            23: "2 Samuel 12; headings to 2 Samuel 13-24",
+            24: "Headings to 1 Kings 1-2; 1 Kings 3; headings to 1 Kings 4-7",
+            25: "1 Kings 8; headings to 1 Kings 9-10; 1 Kings 11",
+                        
+
         }
     }
 }
