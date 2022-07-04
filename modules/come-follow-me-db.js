@@ -789,6 +789,15 @@ export default {
             1: "1 Kings 18:24-46",
             2: "1 Kings 19",
             3: "FHE",
+
+            4: "Headings from 1 Kings 20 to 2 Kings 1",
+            5: "2 Kings 2-3",
+            6: "2 Kings 4",
+            7: "2 Kings 5",
+            8: "2 Kings 6",
+            9: "2 Kings 7",
+            10: "FHE",
+
         }
     }
 }
