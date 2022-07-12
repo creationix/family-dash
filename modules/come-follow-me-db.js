@@ -798,6 +798,14 @@ export default {
             9: "2 Kings 7",
             10: "FHE",
 
+            11: "2 Kings 17",
+            12: "2 Kings 18-20",
+            13: "2 Kings 21",
+            14: "2 Kings 22-23",
+            15: "2 Kings 24",
+            16: "2 Kings 25",
+            17: "FHE",
+
         }
     }
 }
