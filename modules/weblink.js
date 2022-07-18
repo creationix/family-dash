@@ -30,6 +30,8 @@ export const abbreviations = {
     "2 Samuel": "ot/2-sam",
     "1 Kings": "ot/1-kgs",
     "2 Kings": "ot/2-kgs",
+    "Ezra": "ot/ezra",
+    "Nehemiah": "ot/neh",
 }
 
 export function link(text) {

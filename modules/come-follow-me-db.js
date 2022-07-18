@@ -806,6 +806,14 @@ export default {
             16: "2 Kings 25",
             17: "FHE",
 
+            18: "Read Ezra 1; heading to Ezra 2; read Ezra 3",
+            19: "Ezra 4-5",
+            20: "read Ezra 6-7; headings to Ezra 8-10",
+            21: "Heading to Nehemiah 1; read Nehemiah 2; heading to Nehemiah 3; read Nehemiah 4",
+            22: "Nehemiah 5-6",
+            23: "heading to Nehemiah 7; read Nehemiah 8; headings to Nehemiah 9-13",
+            24: "FHE",
+
         }
     }
 }
