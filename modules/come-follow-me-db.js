@@ -814,6 +814,15 @@ export default {
             23: "heading to Nehemiah 7; read Nehemiah 8; headings to Nehemiah 9-13",
             24: "FHE",
 
+            25: "Esther 1",
+            26: "Esther 2",
+            27: "Esther 3-4",
+            28: "Esther 5-6",
+            29: "Esther 7-8",
+            30: "Esther 9-10",
+            31: "FHE",
+
+
         }
     }
 }
