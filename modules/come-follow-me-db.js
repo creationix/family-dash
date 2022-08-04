@@ -821,8 +821,15 @@ export default {
             29: "Esther 7-8",
             30: "Esther 9-10",
             31: "FHE",
-
-
-        }
+        },
+        8: {
+            1: "Job 1-3, headings to Job 4-7",
+            2: "headings to Job 8-11; read Job 12-14",
+            3: "headings to Job 15-18; read Job 19; heading of Job 20; read Job 21",
+            4: "Job 22-24; headings to Job 25-28",
+            5: "headings to Job 29-35",
+            6: "headings to Job 36-37; read Job 38-40; heading of Job 41; read Job 42",
+            7: "FHE",
+        },
     }
 }
