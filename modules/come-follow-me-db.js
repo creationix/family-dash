@@ -830,6 +830,15 @@ export default {
             5: "headings to Job 29-35",
             6: "headings to Job 36-37; read Job 38-40; heading of Job 41; read Job 42",
             7: "FHE",
+
+            8: "Psalms 1-2; headings to Psalms 3-7; read Psalm 8",
+            9: "Headings to Psalms 9-18",
+            10: "Psalms 19-25",
+            11: "Psalms 26-33",
+            12: "Headings to Psalms 34-39; read Psalm 40",
+            13: "Headings to Psalms 41-45; read Psalm 46; headings to Psalms 47-48",
+            14: "FHE and our anniversary!",
+
         },
     }
 }
