@@ -839,6 +839,13 @@ export default {
             13: "Headings to Psalms 41-45; read Psalm 46; headings to Psalms 47-48",
             14: "FHE and our anniversary!",
 
+            15: "Psalms 49-51; headings to Psalms 52-57",
+            16: "headings to Psalms 58-60; read Psalms 61-66",
+            17: "Headings to Psalms 67-68; read Psalms 69-72; headings to Psalms 73-75",
+            18: "Heading to Psalm 76; read Psalms 77-78; headings to Psalms 79-84",
+            19: "Psalm 85-86; headings to Psalms 87-93",
+            20: "Headings to Psalms 94-101",
+
         },
     }
 }
