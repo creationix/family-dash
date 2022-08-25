@@ -846,6 +846,14 @@ export default {
             19: "Psalm 85-86; headings to Psalms 87-93",
             20: "Headings to Psalms 94-101",
 
+            22: "Psalms 102-103; headings to Psalms 104-109",
+            23: "Psalm 110; headings to Psalms 111-115; read Psalms 116-117",
+            24: "Psalms 118-119; headings to Psalms 120-125",
+            25: "Heading to Psalms 126; read Psalms 127-128; headings to Psalms 129-133",
+            26: "Heading to Psalms 134; read Psalms 135-139; headings to Psalms 140-141",
+            27: "Headings to Psalms 142-145; read Psalms 146-150",
+            28: "FHE",
+
         },
     }
 }
