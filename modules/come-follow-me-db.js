@@ -856,6 +856,8 @@ export default {
 
         },
         9: {
+            4: "FHE",
+
             5: "Isaiah 1-2",
             6: "Isaiah 3-4",
             7: "Isaiah 5-6",
