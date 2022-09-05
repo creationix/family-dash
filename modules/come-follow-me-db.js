@@ -855,5 +855,15 @@ export default {
             28: "FHE",
 
         },
+        9: {
+            5: "Isaiah 1-2",
+            6: "Isaiah 3-4",
+            7: "Isaiah 5-6",
+            8: "Isaiah 7-8",
+            9: "Isaiah 9-10",
+            10: "Isaiah 11-12",
+            11: "FHE",
+
+        }
     }
 }
