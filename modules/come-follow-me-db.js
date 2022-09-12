@@ -866,6 +866,14 @@ export default {
             10: "Isaiah 11-12",
             11: "FHE",
 
+            12: "Isaiah 13-14; headings to Isaiah 15-16",
+            13: "Headings to Isaiah 17-23",
+            14: "Isaiah 24-26",
+            15: "Isaiah 27-29",
+            16: "Isaiah 30; headings to Isaiah 31-33",
+            17: "Heading to Isaiah 34; read Isaiah 35; headings to Isaiah 36-39",
+
+
         }
     }
 }
