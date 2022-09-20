@@ -873,6 +873,14 @@ export default {
             16: "Isaiah 30; headings to Isaiah 31-33",
             17: "Heading to Isaiah 34; read Isaiah 35; headings to Isaiah 36-39",
 
+            19: "Isaiah 40",
+            20: "Isaiah 41",
+            21: "Isaiah 42-43",
+            22: "Isaiah 44-45",
+            23: "Isaiah 46-47",
+            24: "Isaiah 48-49",
+            25: "FHE",
+
 
         }
     }
