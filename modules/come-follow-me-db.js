@@ -881,6 +881,15 @@ export default {
             24: "Isaiah 48-49",
             25: "FHE",
 
+            26: "Isaiah 50",
+            27: "Isaiah 51",
+            28: "Isaiah 52-53",
+            29: "Isaiah 54",
+            30: "Isaiah 55-56",
+        },
+        10: {
+            1: "Isaiah 57",
+            2: "FHE",
 
         }
     }
