@@ -891,6 +891,15 @@ export default {
             1: "Isaiah 57",
             2: "FHE",
 
+            3: "Isaiah 58-59",
+            4: "Isaiah 60",
+            5: "Isaiah 61-62",
+            6: "Isaiah 63-64",
+            7: "Isaiah 65",
+            8: "Isaiah 66",
+            9: "FHE",
+
+
         }
     }
 }
