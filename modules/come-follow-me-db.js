@@ -899,6 +899,13 @@ export default {
             8: "Isaiah 66",
             9: "FHE",
 
+            10: "Jeremiah 1-2",
+            11: "Jeremiah 3; headings for Jeremiah 4-6",
+            12: "Jeremiah 7; headings to Jeremiah 8-15",
+            13: "Jeremiah 16-17",
+            14: "Jeremiah 18; heading to Jeremiah 19",
+            15: "Jeremiah 20; headings to Jeremiah 21-29",
+            16: "FHE",
 
         }
     }
