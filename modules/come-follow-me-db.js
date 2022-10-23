@@ -907,6 +907,15 @@ export default {
             15: "Jeremiah 20; headings to Jeremiah 21-29",
             16: "FHE",
 
+            17: "Jeremiah 30-31",
+            18: "Jeremiah 32",
+            19: "Jeremiah 33; headings to Jeremiah 34-35",
+            20: "Jeremiah 36; headings to Jeremiah 37-52",
+            21: "Lamentations 1; heading to Lamentations 2",
+            22: "Lamentations 3; headings to Lamentations 4-5",
+            23: "FHE",
+
+
         }
     }
 }

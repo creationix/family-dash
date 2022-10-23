@@ -37,6 +37,7 @@ export const abbreviations = {
     "Psalms": "ot/ps",
     "Isaiah": "ot/isa",
     "Jeremiah": "ot/jer",
+    "Lamentations": "ot/lam",
 }
 
 export function link(text) {
