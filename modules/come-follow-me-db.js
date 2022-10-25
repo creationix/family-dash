@@ -915,6 +915,13 @@ export default {
             22: "Lamentations 3; headings to Lamentations 4-5",
             23: "FHE",
 
+            24: "Ezekiel 1-2",
+            25: "Ezekiel 3; headings to Ezekiel 9-32",
+            26: "Ezekiel 33-34",
+            27: "Heading to Ezekiel 35; read Ezekiel 36",
+            28: "Ezekiel 37; headings to Ezekiel 38-46",
+            29: "Ezekiel 47; heading to Ezekiel 48",
+            30: "FHE",
 
         }
     }
