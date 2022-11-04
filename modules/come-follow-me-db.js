@@ -923,6 +923,15 @@ export default {
             29: "Ezekiel 47; heading to Ezekiel 48",
             30: "FHE",
 
+            31: "Daniel 1",
+        },
+        11: {
+            1: "Daniel 2",
+            2: "Daniel 3",
+            3: "Daniel 4",
+            4: "Daniel 5",
+            5: "Daniel 6",
+            6: "FHE",
         }
     }
 }

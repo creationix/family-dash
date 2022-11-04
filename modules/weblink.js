@@ -39,6 +39,7 @@ export const abbreviations = {
     "Jeremiah": "ot/jer",
     "Lamentations": "ot/lam",
     "Ezekiel": "ot/ezek",
+    "Daniel": "ot/dan",
 }
 
 export function link(text) {
