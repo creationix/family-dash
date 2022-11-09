@@ -932,6 +932,15 @@ export default {
             4: "Daniel 5",
             5: "Daniel 6",
             6: "FHE",
+
+            7: "Hosea 1-3",
+            8: "Hosea 4-6",
+            9: "Headings to Hosea 7-9; read Hosea 10-11",
+            10: "Hosea 12-13",
+            11: "Hosea 14; Joel 1",
+            12: "Joel 2-3",
+            13: "FHE",
+
         }
     }
 }

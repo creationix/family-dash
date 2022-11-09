@@ -40,6 +40,8 @@ export const abbreviations = {
     "Lamentations": "ot/lam",
     "Ezekiel": "ot/ezek",
     "Daniel": "ot/dan",
+    "Hosea": "ot/hosea",
+    "Joel": "ot/joel",
 }
 
 export function link(text) {
