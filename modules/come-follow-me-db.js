@@ -941,6 +941,14 @@ export default {
             12: "Joel 2-3",
             13: "FHE",
 
+            14: "Amos 1-2",
+            15: "Amos 3-4",
+            16: "Amos 5",
+            17: "Amos 6-7",
+            18: "Amos 8-9",
+            19: "Obadiah",
+            20: "FHE",
+
         }
     }
 }
