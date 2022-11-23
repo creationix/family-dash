@@ -949,6 +949,14 @@ export default {
             19: "Obadiah",
             20: "FHE",
 
+            21: "Jonah 1-2",
+            22: "Jonah 3-4",
+            23: "Micah 1-2",
+            24: "Micah 3-4",
+            25: "Micah 5-6",
+            26: "Micah 7",
+            27: "FHE",
+
         }
     }
 }

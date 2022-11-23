@@ -44,6 +44,8 @@ export const abbreviations = {
     "Joel": "ot/joel",
     "Amos": "ot/amos",
     "Obadiah": "ot/obad",
+    "Jonah": "ot/jonah",
+    "Micah": "ot/micah",
 }
 
 export function link(text) {
