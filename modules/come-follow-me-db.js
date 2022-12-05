@@ -957,6 +957,25 @@ export default {
             26: "Micah 7",
             27: "FHE",
 
+            28: "Nahum 1-2",
+            29: "Nahum 3",
+            30: "Habakkuk 1-2",
+        },
+        12: {
+
+            1: "Habakkuk 3",
+            2: "Zephaniah 1-2",
+            3: "Zephaniah 3",
+            4: "FHE",
+
+            5: "Haggai",
+            6: "Zechariah 1-3",
+            7: "Headings to Zechariah 4-6; read Zechariah 7",
+            8: "Zechariah 8-9",
+            9: "Zechariah 10-11",
+            10: "Zechariah 12-14",
+            11: "FHE",
+
         }
     }
 }

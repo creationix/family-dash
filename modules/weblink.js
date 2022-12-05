@@ -46,6 +46,11 @@ export const abbreviations = {
     "Obadiah": "ot/obad",
     "Jonah": "ot/jonah",
     "Micah": "ot/micah",
+    "Nahum": "ot/nahum",
+    "Habakkuk": "ot/hab",
+    "Zephaniah": "ot/zeph",
+    "Haggai": "ot/hag",
+    "Zechariah": "ot/zech",
 }
 
 export function link(text) {
