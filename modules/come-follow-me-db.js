@@ -968,7 +968,7 @@ export default {
             3: "Zephaniah 3",
             4: "FHE",
 
-            5: "Haggai",
+            5: "Haggai 1",
             6: "Zechariah 1-3",
             7: "Headings to Zechariah 4-6; read Zechariah 7",
             8: "Zechariah 8-9",
