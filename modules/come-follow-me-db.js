@@ -976,6 +976,14 @@ export default {
             10: "Zechariah 12-14",
             11: "FHE",
 
+            12: "Malachi 1",
+            13: "Malachi 2:1-10",
+            14: "Malachi 2:11-17",
+            15: "Malachi 3:1-7",
+            16: "Malachi 3:8-18",
+            17: "Malachi 4",
+            18: "FHE",
+
         }
     }
 }

@@ -51,6 +51,7 @@ export const abbreviations = {
     "Zephaniah": "ot/zeph",
     "Haggai": "ot/hag",
     "Zechariah": "ot/zech",
+    "Malachi": "ot/mal",
 }
 
 export function link(text) {
